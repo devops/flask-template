@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block navbar %}
+{% include "navbar.html" %}
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container-fluid">
+    {% block page %}{% endblock %}
+</div>
+
+{% endblock %}
